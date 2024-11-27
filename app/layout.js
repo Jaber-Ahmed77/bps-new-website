@@ -13,8 +13,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className={` ${inter.className} overflow-x-clip`} style={{
+      <body className={` ${inter.className}`} style={{
         width: "100vw",
+        overflowX: "hidden",
       }}>
         {" "}
         <Navbar />
