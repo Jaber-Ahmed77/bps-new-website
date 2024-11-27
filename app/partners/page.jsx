@@ -2,11 +2,10 @@
 
 import React from "react";
 import PageLayout from "../components/ui/PageLayout/PageLayout";
-import Image from "next/image";
-import PartnerCard from "../components/Cards/partnerCard";
 import { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import PartnerCard from "../components/Cards/PartnerCard";
 
 export default function Partners() {
   useEffect(() => {
