@@ -18,7 +18,7 @@ export default function Footer() {
       <div className="flex flex-wrap justify-between gap-8  py-6 px-6">
         <div className="flex flex-col items-start gap-6">
           <div className="w-full flex justify-start pb-4 ">
-            <Image src="/img/Logo.svg" alt="logo" width={164} height={59} />
+            <Image src="/logo.svg" alt="logo" width={164} height={59} />
           </div>
 
           <div className="w-full flex flex-col items-start gap-4">
