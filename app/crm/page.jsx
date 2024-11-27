@@ -65,72 +65,28 @@ export default function CRM() {
     },
   ];
 
-  const featuresData = [
+const featuresData = [
     {
-      icon: "/img/notificationsIcon.svg",
-      title: "Notifications",
+      icon: "/img/reporting.svg",
+      title: "Reporting",
     },
     {
-      icon: "/img/requests.svg",
-      title: "Client’s Requests for technical support",
+      icon: "/img/client.svg",
+      title: "Clients Data Sheets",
     },
     {
-      icon: "/img/website.svg",
-      title: "Website Management",
+      icon: "/img/documents.svg",
+      title: "Documents",
     },
     {
-      icon: "/img/tools.svg",
-      title: "Analytics Tools",
+      icon: "/img/Actions.svg",
+      title: "Actions",
     },
     {
-      icon: "/img/api.svg",
-      title: "Logo Design",
+      icon: "/img/money.svg",
+      title: "Money DepositAnd Withdrawal",
     },
-    {
-      icon: "/img/api.svg",
-      title: "Logo Design",
-    },
-    {
-      icon: "/img/api.svg",
-      title: "Logo Design",
-    },
-    {
-      icon: "/img/api.svg",
-      title: "Logo Design",
-    },
-    {
-      icon: "/img/notificationsIcon.svg",
-      title: "Notifications",
-    },
-    {
-      icon: "/img/requests.svg",
-      title: "Client’s Requests for technical support",
-    },
-    {
-      icon: "/img/website.svg",
-      title: "Website Management",
-    },
-    {
-      icon: "/img/tools.svg",
-      title: "Analytics Tools",
-    },
-    {
-      icon: "/img/api.svg",
-      title: "Logo Design",
-    },
-    {
-      icon: "/img/api.svg",
-      title: "Logo Design",
-    },
-    {
-      icon: "/img/api.svg",
-      title: "Logo Design",
-    },
-    {
-      icon: "/img/api.svg",
-      title: "Logo Design",
-    },
-  ];
+
 
   const safeBaseData = [
     "IP Whitelist makes it possible to limit the ability to log into CRM only to certain computers",
