@@ -148,7 +148,7 @@ export default function ContactForm() {
         </div>
 
         {/* Message Field */}
-        <div className="w-full" data-aos-duration="500" data-aos="fade-down">
+        <div className="w-full" data-aos-duration="500" data-aos="fade-up">
           <label>
             <p className="text-main_blue-900 mb-1 text-base font-medium">
               Your Message
