@@ -155,7 +155,7 @@ export default function HeroSection() {
 
       {/* phone image */}
       <div className=" md:hidden pr-[6%] absolute top-[58%] md:right-0 -mr-6 md:-mr-16 lg:-mr-24 2xl:-mr-28 -translate-y-1/2">
-        <div className="absolute -top-[50%] overflow-x-clip w-[calc(100vw-15px)] -left-[10%] z-[-1]">
+        <div className="absolute -top-[50%] overflow-x-clip w-[calc(100vw-17px)] -left-[10%] z-[-1]">
           <Image
             src="/img/bg-light.svg"
             alt="bg light"
