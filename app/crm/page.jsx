@@ -210,10 +210,10 @@ const featuresData = [
                   <Image src={item.icon} height={40} width={48} alt="icon"/>
                 </div>
                 <div className=" h-[210px] flex-col items-center gap-3 flex">
-                  <div className=" text-center text-[#12475f] text-2xl font-medium leading-normal">
+                  <div className=" text-center text-[#12475f] text-xl font-medium leading-normal">
                     {item.title}
                   </div>
-                  <div className=" text-center text-[#697176] text-base font-normal">
+                  <div className=" text-center text-[#697176] text-sm font-normal">
                     {item.description}
                   </div>
                 </div>
