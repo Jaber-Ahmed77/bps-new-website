@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
       }}>
         {" "}
         <Navbar />
-        <main className="space-y-4 max-w-[99%] md:max-w-[85%] mx-auto">
+        <main className="space-y-4 max-w-[99%] md:max-w-[90%] mx-auto">
           {children}
         </main>
         <Footer />
