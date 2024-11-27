@@ -40,7 +40,7 @@ export default function HeroSection() {
     <section className="relative flex flex-col items-center md:flex-row p-6 md:p-12 xl:p-14 min-h-[851px]">
       <div className="flex-1 flex flex-col justify-between max-h-[750px] md:max-h-full lg:h-[540px]">
         <div className="space-y-4 md:space-y-6 md:max-w-[400px] mt-11 md:mt-0">
-          <h1 className="text-4xl md:text-nowrap md:text-6xl xl:text-[96px] tracking-wide text-main_blue-500 font-bold">
+          <h1 className="text-5xl md:text-nowrap md:text-6xl xl:text-[96px] tracking-wide text-main_blue-500 font-bold">
             <span ref={textRef} style={{ display: "inline-block", opacity: 0 }}>
               Forex
             </span>{" "}
