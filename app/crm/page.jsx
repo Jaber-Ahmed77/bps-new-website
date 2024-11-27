@@ -40,25 +40,25 @@ export default function CRM() {
 
   const leadData = [
     {
-      icon: "/img/assets.svg",
+      icon: "/img/BBSLogo.svg",
       title: "Convenient service",
       description:
         "By using custom API methods for lead generators, the integration process takes only 3 days. Data on leads comes in real-time via the Postback functionality.",
     },
     {
-      icon: "/img/assets.svg",
+      icon: "/img/BBSLogo.svg",
       title: "No leaks",
       description:
         "It's up to you to decide what data the lead generator can collect, simply withhold the information it doesn't need to know.",
     },
     {
-      icon: "/img/assets.svg",
+      icon: "/img/BBSLogo.svg",
       title: "Expand your business",
       description:
         "Our clients work with over 20 lead generators and receive traffic from up to 150 channels.",
     },
     {
-      icon: "/img/assets.svg",
+      icon: "/img/BBSLogo.svg",
       title: "Unique leads",
       description:
         "The BestBrokerSolutions CRM monitors the traffic received by your company, so no duplicates can be found.",
