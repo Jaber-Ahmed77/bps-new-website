@@ -209,7 +209,7 @@ export default function Services() {
         <div className="w-full lg:w-1/2 h-auto" data-aos="fade-down">
           <img
             className="w-full lg:w-[628px] min-h-full rounded-xl"
-            src="/img/stocktrader_2.webp"
+            src="/img/Stocktrader_2.webp"
             alt="Placeholder"
           />
         </div>
