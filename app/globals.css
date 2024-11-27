@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.text-stroke {
+  -webkit-text-stroke: 1px #2caae2;
+}
+.text-darker-stroke {
+  -webkit-text-stroke: 1px #12475f;
+}
