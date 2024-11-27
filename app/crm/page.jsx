@@ -86,7 +86,7 @@ const featuresData = [
       icon: "/img/money.svg",
       title: "Money DepositAnd Withdrawal",
     },
-
+  ];
 
   const safeBaseData = [
     "IP Whitelist makes it possible to limit the ability to log into CRM only to certain computers",
