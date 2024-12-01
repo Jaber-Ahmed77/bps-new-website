@@ -37,10 +37,11 @@ export default function HeroSection() {
   }, []);
 
   return (
-    <section className="relative flex flex-col items-center md:flex-row p-6 md:p-12 xl:p-14 min-h-[851px]">
-      <div className="flex-1 flex flex-col justify-between max-h-[750px] md:max-h-full lg:h-[540px]">
+    <section className="relative inset-0 flex flex-col items-center md:flex-row p-6 md:p-12 xl:p-14 h-auto">
+
+      <div className="flex-1 flex flex-col justify-between md:max-h-full pt-12 lg:h-[500px] overflow-hidden">
         <div className="space-y-4 md:space-y-6 md:max-w-[400px] mt-11 md:mt-0">
-          <h1 className="text-5xl md:text-nowrap md:text-6xl xl:text-[96px] tracking-wide text-main_blue-500 font-bold">
+          <h1 className="text-4xl md:text-nowrap md:text-6xl xl:text-[96px] tracking-wide text-main_blue-500 font-bold">
             <span ref={textRef} style={{ display: "inline-block", opacity: 0 }}>
               Forex
             </span>{" "}
@@ -61,7 +62,7 @@ export default function HeroSection() {
           <p
             data-aos="fade-down"
             data-aos-duration="600"
-            className="text-[10px] xl:text-xl max-w-[400px] tracking-wide text-mainText font-light"
+            className="text-[10px] text-sm md:text-base xl:text-xl max-w-[400px] tracking-wide text-mainText font-light"
           >
             A full set of software for Forex brokers to become a broker on the
             Forex market
@@ -123,11 +124,9 @@ export default function HeroSection() {
             </div>
           </div>
         </div>
-      </div>
 
-      {/* desktop image */}
-      <div className="hidden md:block absolute top-1/2 right-0 -mr-6 md:-mr-16 lg:-mr-[94px] 2xl:-mr-28 -translate-y-1/2">
-        <div
+        <div className="hidden md:block absolute top-1/2 right-0 -mr-6 md:-mr-16 lg:-mr-[4.5%] 2xl:-mr-28 -translate-y-1/2">
+        {/* <div
           className="absolute -top-[27%] left-[-170px] z-[-1] "
           style={{
             animation: "spin 8s linear infinite",
@@ -141,7 +140,7 @@ export default function HeroSection() {
             quality={70}
             className="xl:scale-[1.1] 2xl:scale-[1.4]"
           />
-        </div>
+        </div> */}
 
         <Image
           src="/img/big-macbook.png"
@@ -149,13 +148,13 @@ export default function HeroSection() {
           width={500}
           height={300}
           quality={70}
-          className="xl:scale-[1.2] 2xl:scale-[1.4]"
+          className="xl:scale-[1.2]"
         />
       </div>
 
-      {/* phone image */}
-      <div className=" md:hidden pr-[6%] absolute top-[58%] md:right-0 -mr-6 md:-mr-16 lg:-mr-24 2xl:-mr-28 -translate-y-1/2">
-        <div className="absolute -top-[50%] overflow-x-clip bg-red-900 w-[calc(100vw-1px)] -left-[16%] z-[-1]">
+            {/* phone image */}
+            <div className=" md:hidden pr-[6%] absolute top-[53%] md:right-0 -mr-6 md:-mr-16 lg:-mr-24 2xl:-mr-28 -translate-y-1/2">
+        {/* <div className="absolute -top-[50%] overflow-x-clip w-screen -left-[10%] z-[-1]">
           <Image
             src="/img/bg-light.svg"
             alt="bg light"
@@ -166,7 +165,7 @@ export default function HeroSection() {
               animation: "spin 8s linear infinite",
             }}
           />
-        </div>
+        </div> */}
 
         <Image
           src="/img/big-macbook-mob.png"
@@ -176,6 +175,7 @@ export default function HeroSection() {
           quality={70}
           className="xl:scale-[1.2] 2xl:scale-[1.4]"
         />
+      </div>
       </div>
     </section>
   );
