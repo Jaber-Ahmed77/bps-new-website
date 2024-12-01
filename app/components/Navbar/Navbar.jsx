@@ -20,7 +20,7 @@ export default function Navbar() {
         <nav className="w-full h-full flex justify-between items-center px-4 md:px-10 py-4 xl:px-12">
           <div className="flex items-center gap-8">
             <Link href="/">
-              <Image src="/logo.svg" alt="logo" width={150} height={150} />
+              <Image src="/logo.svg" alt="logo" width={130} height={130} />
             </Link>
 
             <ul className="items-center p-4 text-sm 2xl:text-base text-nowrap text-mainText gap-6 hidden md:flex">
